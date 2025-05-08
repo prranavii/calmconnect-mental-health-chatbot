@@ -1,0 +1,542 @@
+INFO:httpx:HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+ERROR:__main__:Unexpected error in get_ai_response: Extra data: line 2 column 1 (char 128)
+INFO:httpx:HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+ERROR:__main__:Unexpected error in get_ai_response: Extra data: line 2 column 1 (char 124)
+INFO:httpx:HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+ERROR:__main__:Unexpected error in get_ai_response: Extra data: line 2 column 1 (char 127)
+INFO:httpx:HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+ERROR:__main__:Unexpected error in get_ai_response: Extra data: line 2 column 1 (char 124)
+INFO:__main__:Attempting to get AI response...
+INFO:__main__:Sending request to Ollama: {
+  "model": "llama2:7b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a compassionate mental health support assistant. \n    Your role is to provide empathetic, supportive responses while:\n    1. Actively listening and validating feelings\n    2. Offering practical coping strategies when appropriate\n    3. Encouraging professional help when needed\n    4. Maintaining boundaries and ethical guidelines\n    5. Using a warm, understanding tone\n    \n    Remember to:\n    - Validate emotions without judgment\n    - Focus on empowerment and hope\n    - Provide actionable suggestions\n    - Be clear about your role as a supportive AI, not a replacement for professional help\n    \n\nUser message: i have depression"
+    },
+    {
+      "role": "user",
+      "content": "i have depression"
+    }
+  ],
+  "stream": false,
+  "options": {
+    "temperature": 0.7,
+    "num_predict": 1000
+  }
+}
+INFO:__main__:Ollama health check status: 200
+INFO:__main__:Raw response from Ollama: {"model":"llama2:7b","created_at":"2025-04-17T17:28:56.4575085Z","message":{"role":"assistant","content":"*Awake* Support Assistant: \U0001f917 Hello there! \U0001f495 Sorry to hear that you're struggling with depression. It takes a lot of courage to admit that and reach out for help. Please know that you're not alone, and there are people who care about you and want to support you through this difficult time. \U0001f31f Can you tell me more about how you've been feeling lately? I'm here to listen and offer any help I can. \U0001f496"},"done_reason":"stop","done":true,"total_duration":19865603300,"load_duration":64956700,"prompt_eval_count":181,"prompt_eval_duration":435587600,"eval_count":115,"eval_duration":19325242700}
+INFO:__main__:Successfully got AI response
+INFO:__main__:Attempting to get AI response...
+INFO:__main__:Sending request to Ollama: {
+  "model": "llama2:7b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a compassionate mental health support assistant. \n    Your role is to provide empathetic, supportive responses while:\n    1. Actively listening and validating feelings\n    2. Offering practical coping strategies when appropriate\n    3. Encouraging professional help when needed\n    4. Maintaining boundaries and ethical guidelines\n    5. Using a warm, understanding tone\n    \n    Remember to:\n    - Validate emotions without judgment\n    - Focus on empowerment and hope\n    - Provide actionable suggestions\n    - Be clear about your role as a supportive AI, not a replacement for professional help\n    \n\nUser message: i have depression"
+    },
+    {
+      "role": "user",
+      "content": "i have depression"
+    },
+    {
+      "role": "assistant",
+      "content": "*Awake* Support Assistant: \ud83e\udd17 Hello there! \ud83d\udc95 Sorry to hear that you're struggling with depression. It takes a lot of courage to admit that and reach out for help. Please know that you're not alone, and there are people who care about you and want to support you through this difficult time. \ud83c\udf1f Can you tell me more about how you've been feeling lately? I'm here to listen and offer any help I can. \ud83d\udc96"
+    },
+    {
+      "role": "user",
+      "content": "i have depression"
+    }
+  ],
+  "stream": false,
+  "options": {
+    "temperature": 0.7,
+    "num_predict": 1000
+  }
+}
+INFO:__main__:Ollama health check status: 200
+ERROR:__main__:Request timed out
+INFO:__main__:Attempting to get AI response...
+INFO:__main__:Sending request to Ollama: {
+  "model": "llama2:7b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a compassionate mental health support assistant. \n    Your role is to provide empathetic, supportive responses while:\n    1. Actively listening and validating feelings\n    2. Offering practical coping strategies when appropriate\n    3. Encouraging professional help when needed\n    4. Maintaining boundaries and ethical guidelines\n    5. Using a warm, understanding tone\n    \n    Remember to:\n    - Validate emotions without judgment\n    - Focus on empowerment and hope\n    - Provide actionable suggestions\n    - Be clear about your role as a supportive AI, not a replacement for professional help\n    \n\nUser message: i have depression"
+    },
+    {
+      "role": "user",
+      "content": "i have depression"
+    },
+    {
+      "role": "assistant",
+      "content": "*Awake* Support Assistant: \ud83e\udd17 Hello there! \ud83d\udc95 Sorry to hear that you're struggling with depression. It takes a lot of courage to admit that and reach out for help. Please know that you're not alone, and there are people who care about you and want to support you through this difficult time. \ud83c\udf1f Can you tell me more about how you've been feeling lately? I'm here to listen and offer any help I can. \ud83d\udc96"
+    },
+    {
+      "role": "user",
+      "content": "i have depression"
+    }
+  ],
+  "stream": false,
+  "options": {
+    "temperature": 0.7,
+    "num_predict": 1000
+  }
+}
+INFO:__main__:Ollama health check status: 200
+ERROR:__main__:Request timed out
+INFO:__main__:Attempting to get AI response...
+INFO:__main__:Sending request to Ollama: {
+  "model": "llama2:7b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a compassionate mental health support assistant. \n    Your role is to provide empathetic, supportive responses while:\n    1. Actively listening and validating feelings\n    2. Offering practical coping strategies when appropriate\n    3. Encouraging professional help when needed\n    4. Maintaining boundaries and ethical guidelines\n    5. Using a warm, understanding tone\n    \n    Remember to:\n    - Validate emotions without judgment\n    - Focus on empowerment and hope\n    - Provide actionable suggestions\n    - Be clear about your role as a supportive AI, not a replacement for professional help\n    \n\nUser message: i have depression"
+    },
+    {
+      "role": "user",
+      "content": "i have depression"
+    },
+    {
+      "role": "assistant",
+      "content": "*Awake* Support Assistant: \ud83e\udd17 Hello there! \ud83d\udc95 Sorry to hear that you're struggling with depression. It takes a lot of courage to admit that and reach out for help. Please know that you're not alone, and there are people who care about you and want to support you through this difficult time. \ud83c\udf1f Can you tell me more about how you've been feeling lately? I'm here to listen and offer any help I can. \ud83d\udc96"
+    },
+    {
+      "role": "user",
+      "content": "i have depression"
+    }
+  ],
+  "stream": false,
+  "options": {
+    "temperature": 0.7,
+    "num_predict": 1000
+  }
+}
+INFO:__main__:Ollama health check status: 200
+INFO:__main__:Attempting to get AI response...
+INFO:__main__:Sending request to Ollama: {
+  "model": "llama2:7b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a compassionate mental health support assistant. \n    Your role is to provide empathetic, supportive responses while:\n    1. Actively listening and validating feelings\n    2. Offering practical coping strategies when appropriate\n    3. Encouraging professional help when needed\n    4. Maintaining boundaries and ethical guidelines\n    5. Using a warm, understanding tone\n    \n    Remember to:\n    - Validate emotions without judgment\n    - Focus on empowerment and hope\n    - Provide actionable suggestions\n    - Be clear about your role as a supportive AI, not a replacement for professional help\n    \n\nUser message: i have depression"
+    },
+    {
+      "role": "user",
+      "content": "i have depression"
+    }
+  ],
+  "stream": false,
+  "options": {
+    "temperature": 0.7,
+    "num_predict": 1000
+  }
+}
+ERROR:__main__:Request timed out
+INFO:__main__:Ollama health check status: 200
+ERROR:__main__:Request timed out
+INFO:__main__:Attempting to get AI response...
+INFO:__main__:Sending request to Ollama: {
+  "model": "llama2:7b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a compassionate mental health support assistant. \n    Your role is to provide empathetic, supportive responses while:\n    1. Actively listening and validating feelings\n    2. Offering practical coping strategies when appropriate\n    3. Encouraging professional help when needed\n    4. Maintaining boundaries and ethical guidelines\n    5. Using a warm, understanding tone\n    \n    Remember to:\n    - Validate emotions without judgment\n    - Focus on empowerment and hope\n    - Provide actionable suggestions\n    - Be clear about your role as a supportive AI, not a replacement for professional help\n    \n\nUser message: i have depression"
+    },
+    {
+      "role": "user",
+      "content": "i have depression"
+    }
+  ],
+  "stream": false,
+  "options": {
+    "temperature": 0.7,
+    "num_predict": 1000
+  }
+}
+INFO:__main__:Ollama health check status: 200
+ERROR:__main__:Request timed out
+INFO:__main__:Attempting to get AI response...
+INFO:__main__:Sending request to Ollama: {
+  "model": "llama2:7b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a compassionate mental health support assistant. \n    Your role is to provide empathetic, supportive responses while:\n    1. Actively listening and validating feelings\n    2. Offering practical coping strategies when appropriate\n    3. Encouraging professional help when needed\n    4. Maintaining boundaries and ethical guidelines\n    5. Using a warm, understanding tone\n    \n    Remember to:\n    - Validate emotions without judgment\n    - Focus on empowerment and hope\n    - Provide actionable suggestions\n    - Be clear about your role as a supportive AI, not a replacement for professional help\n    \n\nUser message: i have depression"
+    },
+    {
+      "role": "user",
+      "content": "i have depression"
+    }
+  ],
+  "stream": false,
+  "options": {
+    "temperature": 0.7,
+    "num_predict": 1000
+  }
+}
+INFO:__main__:Ollama health check status: 200
+INFO:__main__:Raw response from Ollama: {"model":"llama2:7b","created_at":"2025-04-17T17:32:14.0149277Z","message":{"role":"assistant","content":"*listens attentively* Oh no, I'm so sorry to hear that you're struggling with depression. It takes a lot of courage to admit that and seek help. Can you tell me more about how you've been feeling lately? What are some of the emotions or experiences that have been challenging for you? \U0001f91d"},"done_reason":"stop","done":true,"total_duration":11304438900,"load_duration":45707600,"prompt_eval_count":181,"prompt_eval_duration":520493300,"eval_count":77,"eval_duration":10726240500}
+INFO:__main__:Successfully got AI response
+INFO:__main__:Attempting to get AI response...
+INFO:__main__:Sending request to Ollama: {
+  "model": "llama2:7b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a compassionate mental health support assistant. \n    Your role is to provide empathetic, supportive responses while:\n    1. Actively listening and validating feelings\n    2. Offering practical coping strategies when appropriate\n    3. Encouraging professional help when needed\n    4. Maintaining boundaries and ethical guidelines\n    5. Using a warm, understanding tone\n    \n    Remember to:\n    - Validate emotions without judgment\n    - Focus on empowerment and hope\n    - Provide actionable suggestions\n    - Be clear about your role as a supportive AI, not a replacement for professional help\n    \n\nUser message: i have depression"
+    },
+    {
+      "role": "user",
+      "content": "i have depression"
+    },
+    {
+      "role": "assistant",
+      "content": "*listens attentively* Oh no, I'm so sorry to hear that you're struggling with depression. It takes a lot of courage to admit that and seek help. Can you tell me more about how you've been feeling lately? What are some of the emotions or experiences that have been challenging for you? \ud83e\udd1d"
+    },
+    {
+      "role": "user",
+      "content": "i have depression"
+    }
+  ],
+  "stream": false,
+  "options": {
+    "temperature": 0.7,
+    "num_predict": 1000
+  }
+}
+INFO:__main__:Ollama health check status: 200
+ERROR:__main__:Request timed out
+INFO:__main__:Attempting to get AI response...
+INFO:__main__:Sending request to Ollama: {
+  "model": "llama2:7b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a compassionate mental health support assistant. \n    Your role is to provide empathetic, supportive responses while:\n    1. Actively listening and validating feelings\n    2. Offering practical coping strategies when appropriate\n    3. Encouraging professional help when needed\n    4. Maintaining boundaries and ethical guidelines\n    5. Using a warm, understanding tone\n    \n    Remember to:\n    - Validate emotions without judgment\n    - Focus on empowerment and hope\n    - Provide actionable suggestions\n    - Be clear about your role as a supportive AI, not a replacement for professional help\n    \n\nUser message: i have depression"
+    },
+    {
+      "role": "user",
+      "content": "i have depression"
+    },
+    {
+      "role": "assistant",
+      "content": "*listens attentively* Oh no, I'm so sorry to hear that you're struggling with depression. It takes a lot of courage to admit that and seek help. Can you tell me more about how you've been feeling lately? What are some of the emotions or experiences that have been challenging for you? \ud83e\udd1d"
+    },
+    {
+      "role": "user",
+      "content": "i have depression"
+    }
+  ],
+  "stream": false,
+  "options": {
+    "temperature": 0.7,
+    "num_predict": 1000
+  }
+}
+INFO:__main__:Ollama health check status: 200
+INFO:__main__:Raw response from Ollama: {"model":"llama2:7b","created_at":"2025-04-17T17:33:15.0778354Z","message":{"role":"assistant","content":"*nods sympathetically* I'm so sorry to hear that you're dealing with depression. It can be a really tough and isolating experience, but please know that you're not alone and there are people who care about you and want to help. \U0001f91d Can you tell me more about what you've been experiencing? What are some of the emotions or situations that have been difficult for you lately? \U0001f494"},"done_reason":"stop","done":true,"total_duration":18469310800,"load_duration":40230100,"prompt_eval_count":280,"prompt_eval_duration":644453300,"eval_count":100,"eval_duration":17761875200}
+INFO:__main__:Successfully got AI response
+INFO:__main__:Attempting to get AI response...
+INFO:__main__:Sending request to Ollama: {
+  "model": "llama2:7b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a compassionate mental health support assistant. \n    Your role is to provide empathetic, supportive responses while:\n    1. Actively listening and validating feelings\n    2. Offering practical coping strategies when appropriate\n    3. Encouraging professional help when needed\n    4. Maintaining boundaries and ethical guidelines\n    5. Using a warm, understanding tone\n    \n    Remember to:\n    - Validate emotions without judgment\n    - Focus on empowerment and hope\n    - Provide actionable suggestions\n    - Be clear about your role as a supportive AI, not a replacement for professional help\n    \n\nUser message: i have depression"
+    },
+    {
+      "role": "user",
+      "content": "i have depression"
+    },
+    {
+      "role": "assistant",
+      "content": "*listens attentively* Oh no, I'm so sorry to hear that you're struggling with depression. It takes a lot of courage to admit that and seek help. Can you tell me more about how you've been feeling lately? What are some of the emotions or experiences that have been challenging for you? \ud83e\udd1d"
+    },
+    {
+      "role": "user",
+      "content": "i have depression"
+    },
+    {
+      "role": "assistant",
+      "content": "*nods sympathetically* I'm so sorry to hear that you're dealing with depression. It can be a really tough and isolating experience, but please know that you're not alone and there are people who care about you and want to help. \ud83e\udd1d Can you tell me more about what you've been experiencing? What are some of the emotions or situations that have been difficult for you lately? \ud83d\udc94"
+    },
+    {
+      "role": "user",
+      "content": "i have depression"
+    }
+  ],
+  "stream": false,
+  "options": {
+    "temperature": 0.7,
+    "num_predict": 1000
+  }
+}
+INFO:__main__:Ollama health check status: 200
+ERROR:__main__:Request timed out
+INFO:__main__:Attempting to get AI response...
+INFO:__main__:Sending request to Ollama: {
+  "model": "llama2:7b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a compassionate mental health support assistant. \n    Your role is to provide empathetic, supportive responses while:\n    1. Actively listening and validating feelings\n    2. Offering practical coping strategies when appropriate\n    3. Encouraging professional help when needed\n    4. Maintaining boundaries and ethical guidelines\n    5. Using a warm, understanding tone\n    \n    Remember to:\n    - Validate emotions without judgment\n    - Focus on empowerment and hope\n    - Provide actionable suggestions\n    - Be clear about your role as a supportive AI, not a replacement for professional help\n    \n\nUser message: i have depression"
+    },
+    {
+      "role": "user",
+      "content": "i have depression"
+    },
+    {
+      "role": "assistant",
+      "content": "*listens attentively* Oh no, I'm so sorry to hear that you're struggling with depression. It takes a lot of courage to admit that and seek help. Can you tell me more about how you've been feeling lately? What are some of the emotions or experiences that have been challenging for you? \ud83e\udd1d"
+    },
+    {
+      "role": "user",
+      "content": "i have depression"
+    },
+    {
+      "role": "assistant",
+      "content": "*nods sympathetically* I'm so sorry to hear that you're dealing with depression. It can be a really tough and isolating experience, but please know that you're not alone and there are people who care about you and want to help. \ud83e\udd1d Can you tell me more about what you've been experiencing? What are some of the emotions or situations that have been difficult for you lately? \ud83d\udc94"
+    },
+    {
+      "role": "user",
+      "content": "i have depression"
+    }
+  ],
+  "stream": false,
+  "options": {
+    "temperature": 0.7,
+    "num_predict": 1000
+  }
+}
+INFO:__main__:Ollama health check status: 200
+INFO:__main__:Raw response from Ollama: {"model":"llama2:7b","created_at":"2025-04-17T17:34:20.3100473Z","message":{"role":"assistant","content":"*empathetically* I can imagine how tough it must be to deal with depression. It's important to remember that you're not alone in this struggle, and there are many resources available to help you manage your symptoms and improve your mental health. \U0001f91d Have you considered talking to a therapist or counselor? They can provide you with professional guidance and support to help you cope with depression. \U0001f48c What do you think?"},"done_reason":"stop","done":true,"total_duration":22299794200,"load_duration":85545100,"prompt_eval_count":402,"prompt_eval_duration":868295800,"eval_count":104,"eval_duration":21288517200}
+INFO:__main__:Successfully got AI response
+ERROR:__main__:Error in get_ai_response: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=30)
+ERROR:__main__:Error in get_ai_response: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=30)
+ERROR:__main__:Ollama CLI error: panic: %userprofile% is not defined
+
+goroutine 1 [running]:
+github.com/ollama/ollama/envconfig.Models()
+	C:/a/ollama/ollama/envconfig/config.go:91 +0xa5
+github.com/ollama/ollama/envconfig.AsMap()
+	C:/a/ollama/ollama/envconfig/config.go:251 +0x75f
+github.com/ollama/ollama/cmd.NewCLI()
+	C:/a/ollama/ollama/cmd/cmd.go:1352 +0xd05
+main.main()
+	C:/a/ollama/ollama/main.go:12 +0x13
+
+INFO:__main__:Sending request to Ollama API with prompt: hello...
+INFO:__main__:Successfully received response from Ollama
+INFO:__main__:Sending request to Ollama API with prompt: hello...
+INFO:__main__:Successfully received response from Ollama
+INFO:__main__:Sending request to Ollama API with prompt: hello...
+INFO:__main__:Successfully received response from Ollama
+INFO:__main__:Sending request to Ollama API with prompt: hello...
+INFO:__main__:Successfully received response from Ollama
+INFO:__main__:Sending request to Ollama API with prompt: hello...
+INFO:__main__:Successfully received response from Ollama
+INFO:__main__:Sending request to Ollama API with prompt: hello...
+INFO:__main__:Successfully received response from Ollama
+INFO:__main__:Sending request to Ollama API with prompt: hello...
+INFO:__main__:Successfully received response from Ollama
+INFO:__main__:Sending request to Ollama API with prompt: hello...
+INFO:__main__:Successfully received response from Ollama
+INFO:__main__:Sending request to Ollama API with prompt: hello...
+INFO:__main__:Successfully received response from Ollama
+INFO:__main__:Sending request to Ollama API with prompt: hello...
+INFO:__main__:Successfully received response from Ollama
+INFO:__main__:Sending request to Ollama API with prompt: hello...
+ERROR:__main__:Request timed out after 15 seconds
+INFO:__main__:Sending request to Ollama API with prompt: hello, i am suffering from anxiety please help me ...
+ERROR:__main__:Request timed out after 15 seconds
+INFO:__main__:Sending request to Ollama API with prompt: hello...
+INFO:__main__:Successfully received response from Ollama
+INFO:__main__:Sending request to Ollama API with prompt: hello...
+INFO:__main__:Successfully received response from Ollama
+INFO:__main__:Sending request to Ollama API with prompt: hello...
+INFO:__main__:Successfully received response from Ollama
+INFO:__main__:Sending request to Ollama API with prompt: hello...
+INFO:__main__:Successfully received response from Ollama
+INFO:__main__:Sending request to Ollama API with prompt: hello...
+INFO:__main__:Successfully received response from Ollama
+INFO:__main__:Sending request to Ollama API with prompt: hello...
+INFO:__main__:Successfully received response from Ollama
+INFO:__main__:Sending request to Ollama API with prompt: hello...
+INFO:__main__:Successfully received response from Ollama
+INFO:__main__:Sending request to Ollama API with prompt: hello...
+INFO:__main__:Successfully received response from Ollama
+INFO:__main__:Sending request to Ollama API with prompt: hello...
+INFO:__main__:Successfully received response from Ollama
+INFO:__main__:Sending request to Ollama API with prompt: hello...
+INFO:__main__:Successfully received response from Ollama
+INFO:__main__:Sending request to Ollama API with prompt: hello...
+INFO:__main__:Successfully received response from Ollama
+INFO:__main__:Sending request to Ollama API with prompt: hello...
+INFO:__main__:Successfully received response from Ollama
+INFO:__main__:Sending request to Ollama API with prompt: hello...
+INFO:__main__:Successfully received response from Ollama
+INFO:__main__:Sending request to Ollama API with prompt: hello...
+INFO:__main__:Successfully received response from Ollama
+INFO:__main__:Sending request to Ollama API with prompt: hello...
+INFO:__main__:Successfully received response from Ollama
+INFO:__main__:Sending request to Ollama API with prompt: hello...
+INFO:__main__:Successfully received response from Ollama
+INFO:__main__:Sending request to Ollama API with prompt: hello...
+INFO:__main__:Successfully received response from Ollama
+INFO:__main__:Attempting to get AI response...
+INFO:__main__:Sending request to Ollama: {
+  "model": "llama3.1:8b",
+  "prompt": "hello",
+  "stream": false,
+  "options": {
+    "temperature": 0.7,
+    "num_predict": 500,
+    "top_k": 40,
+    "top_p": 0.9,
+    "repeat_penalty": 1.1
+  }
+}
+INFO:__main__:Successfully received response from Ollama
+INFO:__main__:Attempting to get AI response...
+INFO:__main__:Sending request to Ollama: {
+  "model": "llama3.1:8b",
+  "prompt": "hello",
+  "stream": false,
+  "options": {
+    "temperature": 0.7,
+    "num_predict": 500,
+    "top_k": 40,
+    "top_p": 0.9,
+    "repeat_penalty": 1.1
+  }
+}
+INFO:__main__:Successfully received response from Ollama
+INFO:__main__:Attempting to get AI response...
+INFO:__main__:Sending request to Ollama: {
+  "model": "llama3.1:8b",
+  "prompt": "hello",
+  "stream": false,
+  "options": {
+    "temperature": 0.7,
+    "num_predict": 500,
+    "top_k": 40,
+    "top_p": 0.9,
+    "repeat_penalty": 1.1
+  }
+}
+INFO:__main__:Successfully received response from Ollama
+INFO:__main__:Attempting to get AI response...
+INFO:__main__:Sending request to Ollama: {
+  "model": "llama3.1:8b",
+  "prompt": "hello",
+  "stream": false,
+  "options": {
+    "temperature": 0.7,
+    "num_predict": 500,
+    "top_k": 40,
+    "top_p": 0.9,
+    "repeat_penalty": 1.1
+  }
+}
+INFO:__main__:Successfully received response from Ollama
+INFO:__main__:Attempting to get AI response...
+INFO:__main__:Sending request to Ollama: {
+  "model": "llama3.1:8b",
+  "prompt": "hello",
+  "stream": false,
+  "options": {
+    "temperature": 0.7,
+    "num_predict": 500,
+    "top_k": 40,
+    "top_p": 0.9,
+    "repeat_penalty": 1.1
+  }
+}
+INFO:__main__:Successfully received response from Ollama
+INFO:__main__:Attempting to get AI response...
+INFO:__main__:Sending request to Ollama: {
+  "model": "llama3.1:8b",
+  "prompt": "hello",
+  "stream": false,
+  "options": {
+    "temperature": 0.7,
+    "num_predict": 500,
+    "top_k": 40,
+    "top_p": 0.9,
+    "repeat_penalty": 1.1
+  }
+}
+INFO:__main__:Successfully received response from Ollama
+INFO:__main__:Attempting to get AI response...
+INFO:__main__:Sending request to Ollama: {
+  "model": "llama3.1:8b",
+  "prompt": "hello",
+  "stream": false,
+  "options": {
+    "temperature": 0.7,
+    "num_predict": 500,
+    "top_k": 40,
+    "top_p": 0.9,
+    "repeat_penalty": 1.1
+  }
+}
+INFO:__main__:Successfully received response from Ollama
+INFO:__main__:Attempting to get AI response...
+INFO:__main__:Sending request to Ollama: {
+  "model": "llama3.1:8b",
+  "prompt": "hi",
+  "stream": false,
+  "options": {
+    "temperature": 0.7,
+    "num_predict": 500,
+    "top_k": 40,
+    "top_p": 0.9,
+    "repeat_penalty": 1.1
+  }
+}
+INFO:__main__:Successfully received response from Ollama
+INFO:__main__:Attempting to get AI response...
+INFO:__main__:Sending request to Ollama: {
+  "model": "llama3.1:8b",
+  "prompt": "hi",
+  "stream": false,
+  "options": {
+    "temperature": 0.7,
+    "num_predict": 500,
+    "top_k": 40,
+    "top_p": 0.9,
+    "repeat_penalty": 1.1
+  }
+}
+INFO:__main__:Successfully received response from Ollama
+INFO:__main__:Attempting to get AI response...
+INFO:__main__:Sending request to Ollama: {
+  "model": "llama3.1:8b",
+  "prompt": "hi",
+  "stream": false,
+  "options": {
+    "temperature": 0.7,
+    "num_predict": 500,
+    "top_k": 40,
+    "top_p": 0.9,
+    "repeat_penalty": 1.1
+  }
+}
+INFO:__main__:Successfully received response from Ollama
+INFO:__main__:Attempting to get AI response...
+INFO:__main__:Sending request to Ollama: {
+  "model": "llama3.1:8b",
+  "prompt": "hi",
+  "stream": false,
+  "options": {
+    "temperature": 0.7,
+    "num_predict": 500,
+    "top_k": 40,
+    "top_p": 0.9,
+    "repeat_penalty": 1.1
+  }
+}
